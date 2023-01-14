@@ -38,7 +38,6 @@ https://github.com/Gladi023/SocialNetworkAPI
   * Dotenv
 
 ## [Dependency](#table-of-contents)
-
      
     1. npm i
     2. npm install express

@@ -13,12 +13,12 @@ app.use(express.static('public'));
 app.use(require('./routes'));
 
 // Mongoose DB connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/social-network', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://admin:1234@cluster0.pbi77yu.mongodb.net/test', {
   useNewUrlParser: true,
   useUnifiedTopology: true
-});
+})
+.then(() => app.listen(PORT, () => console.log(`Connected on localhost:${PORT}`)))
 
 // Logs mono queries
 mongoose.set('debug', true);
 // Connects and listens on port 3001
-app.listen(PORT, () => console.log(`Connected on localhost:${PORT}`));

@@ -13,7 +13,7 @@ app.use(express.static('public'));
 app.use(require('./routes'));
 
 // Mongoose DB connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://admin:1234@cluster0.pbi77yu.mongodb.net/test', {
+mongoose.connect(process.env.MONGODB_URI || '/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })

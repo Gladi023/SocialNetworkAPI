@@ -47,3 +47,4 @@ https://github.com/Gladi023/SocialNetworkAPI
 ## [Walk through video](#video)
 
 Here is the link to the walkthrough video:
+https://vimeo.com/789361009

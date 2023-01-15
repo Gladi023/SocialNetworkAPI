@@ -6,6 +6,7 @@
   * [Git Repo](#git-repo)
   * [Dependency](#dependency)
   * [Walk through video] (#video)
+  * [credits] (#credits)
 
 
 ## [User Story](#table-of-contents)
@@ -48,3 +49,6 @@ https://github.com/Gladi023/SocialNetworkAPI
 
 Here is the link to the walkthrough video:
 https://vimeo.com/789361009
+
+## [credits](#credits)
+Educational Modules from Trilogy Education Services and Columbia University was used to create this app, specifically Module project Pizza Hunt.
